@@ -1,6 +1,6 @@
 import TableRow from './tableRow';
 import PropTypes from 'prop-types';
-import css from '../components/Transactions.module.css';
+
 export default function TableBody({ transactions }) {
   return (
     <tbody>

@@ -2,7 +2,7 @@ import css from '../components/FriendsStyles.module.css';
 export default function FriendListItem({ name, avatar, isOnline }) {
   return (
     <li className={css.item}>
-      {isOnline != true ? (
+      {isOnline !== true ? (
         <span className={css.statusRed}></span>
       ) : (
         <span className={css.statusGreen}></span>

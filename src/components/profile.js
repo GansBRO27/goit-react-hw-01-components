@@ -1,5 +1,5 @@
 import css from '../components/ProfileStyles.module.css';
-import user from './user';
+
 export default function Profile(props) {
   return (
     <div className={css.profile}>
