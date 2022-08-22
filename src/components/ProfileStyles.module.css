@@ -1,0 +1,48 @@
+.profile {
+    /* width: 100px;
+    height: 500px; */
+   
+}
+.description {
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+}
+.image {
+    width: 50px;
+    height: 80px;
+    border-radius: 50%;
+}
+.name {
+    font-size: 28px;
+    margin: 0;
+}
+.tag {
+    font-size: 18px;
+    color: grey;
+    margin: 0;
+
+}
+.location {
+    font-size: 24px;
+    color: grey;
+    margin: 0;
+}
+.profileList {
+  list-style: none;
+  display: flex; 
+  justify-content: space-between;
+  margin: 0;
+  padding: 0; 
+}
+.profileListItem {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    font-size: 12px;
+    border: 1px solid darkgray;
+    width: 33.333%;
+
+}

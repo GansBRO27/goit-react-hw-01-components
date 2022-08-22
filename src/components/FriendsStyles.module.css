@@ -1,0 +1,29 @@
+.statusGreen {
+display: inline-block;
+    width: 30px;
+        height: 30px;
+    background-color: green;
+        border-radius: 50%;
+        border: 1px solid green;
+   
+}
+
+.statusRed {
+   
+    display: inline-block;
+    width: 30px;
+        height: 30px;
+   
+        border-radius: 50%;
+            border: 1px solid red;
+        background-color: red;
+}
+.friendList {
+    list-style: none;
+} 
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
