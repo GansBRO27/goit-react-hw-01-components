@@ -1,4 +1,5 @@
-import css from '../components/Transactions.module.css';
+import css from '../transactions/Transactions.module.css';
+import PropTypes from 'prop-types';
 export default function TableRow({ type, amount, currency }) {
   return (
     <tr>
@@ -8,3 +9,8 @@ export default function TableRow({ type, amount, currency }) {
     </tr>
   );
 }
+TableRow.propTypes = {
+  type: PropTypes.string,
+  amount: PropTypes.string,
+  currency: PropTypes.string,
+};

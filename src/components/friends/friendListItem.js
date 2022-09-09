@@ -1,4 +1,5 @@
-import css from '../components/FriendsStyles.module.css';
+import css from './FriendsStyles.module.css';
+import PropTypes from 'prop-types';
 export default function FriendListItem({ name, avatar, isOnline }) {
   return (
     <li className={css.item}>
@@ -12,3 +13,9 @@ export default function FriendListItem({ name, avatar, isOnline }) {
     </li>
   );
 }
+
+FriendListItem.propTypes = {
+  name: PropTypes.string,
+  avatar: PropTypes.string,
+  isOnline: PropTypes.bool,
+};

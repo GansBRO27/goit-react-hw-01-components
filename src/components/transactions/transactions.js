@@ -1,5 +1,5 @@
-import TableHead from './thead';
-import TableBody from './tbody';
+import TableHead from '../thead/thead';
+import TableBody from '../tbody/tbody';
 import PropTypes from 'prop-types';
 
 export default function Transactions({ items }) {
@@ -11,9 +11,6 @@ export default function Transactions({ items }) {
     </table>
   );
 }
-TableHead.propTypes = {
-  headers: PropTypes.array,
-};
-TableBody.propTypes = {
-  transactions: PropTypes.array,
+Transactions.propTypes = {
+  items: PropTypes.array,
 };

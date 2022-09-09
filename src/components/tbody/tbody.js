@@ -1,4 +1,4 @@
-import TableRow from './tableRow';
+import TableRow from '../tableRow/tableRow';
 import PropTypes from 'prop-types';
 
 export default function TableBody({ transactions }) {
@@ -15,8 +15,7 @@ export default function TableBody({ transactions }) {
     </tbody>
   );
 }
-TableRow.propTypes = {
-  type: PropTypes.string,
-  amount: PropTypes.string,
-  currency: PropTypes.string,
+
+TableBody.propTypes = {
+  transactions: PropTypes.array,
 };

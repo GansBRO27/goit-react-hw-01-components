@@ -1,4 +1,5 @@
-import css from '../components/Transactions.module.css';
+import css from '../transactions/Transactions.module.css';
+import PropTypes from 'prop-types';
 export default function TableHead({ headers }) {
   return (
     <thead>
@@ -10,3 +11,6 @@ export default function TableHead({ headers }) {
     </thead>
   );
 }
+TableHead.propTypes = {
+  headers: PropTypes.array,
+};
